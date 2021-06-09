@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css"> ​
+    <script src="jquery-3.5.0.js"></script>
+    <script src="main.js"></script>
+    <title>Resume</title>
+</head>
+
+<body>
+
+    </div class="container">
+
+    <h3>RESUME</h3>
+
+    <div class="row">
+
+        <div id="introduce">
+            <h3>ABOUT ME</h3>
+            <hr>
+            <img src="avatar.png" alt="profile picture">
+            <p>NAME: Nguyen Thi A</p>
+            <p>AGE: 21</p>
+            <p>LOCATION: HCMC, Viet Nam</p>
+            <p>DEGREE: Bachelor</p>
+            <p>PHONE: 0113113113</p>
+            <p>EMAIL: dummy@students.tdtu.edu.vn</p>
+        </div>
+        <!--#introduce-->
+
+        <div id="content">
+
+            <h3>BIOGRAPHY</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <h3>SKILLS</h3>
+            <hr>
+            <ul>
+                <li>Programming languages: C, C#, Java</li>
+                <li>Databases: SQL Server</li>
+                <li>Others: HTML</li>
+            </ul>
+
+            <h3>WORK EXPERIENCE</h3>
+            <hr>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            </ul>
+
+            <h3>EDUCATION</h3>
+            <hr>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            </ul>
+
+            <h3>EXTRACURRICULAR ACTIVITIES AND AWARDS</h3>
+            <hr>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            </ul>
+
+            <h3>COURSES</h3>
+            <hr>
+            <table id="table1">
+                <tr>
+                    <td id="id"><b>ID</b></td>
+                    <td id="name"><b>NAME</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="status"><b>Loading ...</b></td>
+                </tr>
+            </table>
+            <div id="fucntion">
+                <table id="table2">
+                    <tr>
+                        <td id="tableft">
+                            <span id="display">Showing 1 to 4 of 8 entries</span>
+                        </td>
+                        <td id="tabright">
+                            <button id="pre" onclick="displayPre()">Previous</button>
+                            <button id="one" onclick="displayPre()">1</button>
+                            <button id="two" onclick="displayNext()">2</button>
+                            <button id="next" onclick="displayNext()">Next</button>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+
+            <h3>CONTACT ME</h3>
+            <hr>
+            <form>
+                <label>YOUR EMAIL:</label><br>
+                <input type="text" name="email" id="idemail">
+                <br>
+                <label>YOUR MESSAGE:</label><br>
+                <textarea name="message" id="idmessage"></textarea>
+                <br>
+                <input type="submit" name="submit" value="Submit" id="button">
+            </form>
+
+        </div>
+        <!--#content-->
+
+    </div>
+    <!--#row-->
+
+
+    <div class="footer">
+        <p>&copy; Copyright 2020. All rights reserved.</p>
+    </div>
+    <!--#footer-->
+
+    </div>
+    <!--#container-->
+
+
+</body>
+
+</html>
